@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Faisal Khan – Senior Angular &amp; Frontend Engineer with 7+ years of experience in Angular, TypeScript, RxJS, NgRx, NX Monorepo, Storybook, and Cypress."/>
+  <meta name="keywords" content="Angular Developer, Frontend Engineer, Senior Software Engineer, TypeScript, RxJS, NgRx, NX Monorepo, Storybook, Cypress, Angular Material, Lazy Loading, HTML5, CSS3, SCSS, Tailwind CSS, JavaScript, Git, GitHub Actions, CI/CD, Docker, Technical Leadership, Agile, Scrum"/>
+  <title>Faisal Khan – Senior Angular and Frontend Engineer</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+      font-size: 13px;
+      line-height: 1.45;
+      color: #1a1a1a;
+      background: #f4f6f9;
+    }
+
+    .page {
+      max-width: 860px;
+      margin: 32px auto;
+      background: #fff;
+      padding: 44px 52px;
+      border-top: 5px solid #1a4f9c;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.10);
+    }
+
+    /* ── HEADER ─────────────────────────────────────────── */
+    h1.header-name {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      color: #0d2d6e;
+    }
+
+    address.contact-row {
+      font-style: normal;
+      margin-top: 6px;
+      font-size: 12.5px;
+      color: #444;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 0;
+      align-items: center;
+    }
+    address.contact-row .sep { margin: 0 7px; color: #bbb; }
+    address.contact-row a { color: #1a4f9c; text-decoration: none; }
+    address.contact-row a:hover { text-decoration: underline; }
+
+    /* ── SECTION HEADING ─────────────────────────────────── */
+    h2.section-heading {
+      font-size: 11.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: #1a4f9c;
+      margin-top: 22px;
+      margin-bottom: 0;
+      padding-bottom: 4px;
+      border-bottom: 1.5px solid #d0d9e8;
+    }
+
+    /* ── SUMMARY ─────────────────────────────────────────── */
+    .summary-text {
+      margin-top: 8px;
+      line-height: 1.65;
+      color: #2b2b2b;
+    }
+
+    /* ── EXPERIENCE ──────────────────────────────────────── */
+    .job-block { margin-top: 12px; }
+
+    .job-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 2px;
+    }
+    h3.job-company {
+      font-weight: 700;
+      font-size: 13.5px;
+      color: #111;
+    }
+    .job-location {
+      font-size: 12px;
+      color: #555;
+      font-weight: 400;
+    }
+    .job-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      margin-top: 1px;
+    }
+    .job-title {
+      font-weight: 600;
+      font-size: 13px;
+      color: #1a4f9c;
+    }
+    .job-dates {
+      font-size: 12px;
+      color: #555;
+    }
+
+    ul.bullets {
+      margin: 6px 0 0 18px;
+    }
+    ul.bullets li {
+      margin-bottom: 4px;
+      line-height: 1.55;
+      color: #2b2b2b;
+    }
+
+    /* ── SKILLS ──────────────────────────────────────────── */
+    dl.skills-dl { margin-top: 9px; }
+    dl.skills-dl div {
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 0 12px;
+      margin-bottom: 5px;
+      align-items: baseline;
+    }
+    dl.skills-dl dt {
+      font-weight: 600;
+      color: #1a4f9c;
+      font-size: 12.5px;
+    }
+    dl.skills-dl dd {
+      margin: 0;
+      color: #2b2b2b;
+    }
+
+    /* ── EDUCATION ───────────────────────────────────────── */
+    .edu-block { margin-top: 10px; }
+    .edu-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      gap: 2px;
+    }
+    .edu-institution { font-weight: 700; font-size: 13px; color: #111; }
+    .edu-location { font-size: 12px; color: #555; }
+    .edu-degree { font-size: 12.5px; color: #2b2b2b; margin-top: 1px; }
+    .edu-year { font-size: 12px; color: #555; }
+
+    /* ── CERTIFICATIONS ─────────────────────────────────── */
+    ul.cert-list { margin: 8px 0 0 18px; }
+    ul.cert-list li { font-size: 12.5px; color: #2b2b2b; margin-bottom: 4px; line-height: 1.5; }
+    ul.cert-list li strong { color: #111; }
+
+    /* ── ROLE SUBTITLE ──────────────────────────────────────*/
+    p.header-subtitle {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: #1a4f9c;
+      letter-spacing: 0.3px;
+      margin-top: 3px;
+    }
+
+    /* ── CORE COMPETENCIES ───────────────────────────────── */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 9px;
+    }
+    .tag {
+      background: #eef2fa;
+      color: #1a4f9c;
+      font-size: 11.5px;
+      font-weight: 600;
+      padding: 3px 10px;
+      border-radius: 3px;
+      letter-spacing: 0.2px;
+    }
+
+    /* ── LANGUAGES ───────────────────────────────────────── */
+    .lang-row {
+      margin-top: 8px;
+      font-size: 12.5px;
+      color: #2b2b2b;
+    }
+
+    /* ── PRINT ───────────────────────────────────────────── */
+    @media print {
+      body { background: #fff; }
+      .page {
+        margin: 0;
+        padding: 28px 36px;
+        box-shadow: none;
+        border-top: 4px solid #1a4f9c;
+        max-width: 100%;
+      }
+      .job-block, .edu-block { page-break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ── HEADER ──────────────────────────────────────────── -->
+  <h1 class="header-name">Faisal Khan</h1>
+  <p class="header-subtitle">Senior Angular &amp; Frontend Engineer</p>
+  <address class="contact-row">
+    <span>+91 9340430696</span>
+    <span class="sep">|</span>
+    <a href="mailto:faisalsistec@gmail.com">faisalsistec@gmail.com</a>
+    <span class="sep">|</span>
+    <span>Bhopal, Madhya Pradesh, India</span>
+    <span class="sep">|</span>
+    <a href="https://in.linkedin.com/in/1123faisal" target="_blank" rel="noopener">linkedin.com/in/1123faisal</a>
+    <span class="sep">|</span>
+    <a href="https://github.com/1123faisal" target="_blank" rel="noopener">github.com/1123faisal</a>
+  </address>
+
+  <!-- ── PROFESSIONAL SUMMARY ───────────────────────────── -->
+  <h2 class="section-heading">Professional Summary</h2>
+  <p class="summary-text">
+    Senior Angular &amp; Frontend Engineer with 7+ years of experience, the last 3 exclusively focused on
+    Angular, NX monorepo architecture, and scalable component ecosystems. Proven ability to lead frontend
+    teams, establish UI standards through Storybook-driven design systems, and deliver quality-first
+    applications with strong test coverage. Early-career full-stack background provides a solid foundation
+    for making informed architectural decisions across the stack.
+  </p>
+
+  <!-- ── CORE COMPETENCIES ────────────────────────────────── -->
+  <h2 class="section-heading">Core Competencies</h2>
+  <div class="tags">
+    <span class="tag">Angular Architecture</span>
+    <span class="tag">NX Monorepo</span>
+    <span class="tag">Component Design Systems</span>
+    <span class="tag">RxJS &amp; NgRx</span>
+    <span class="tag">Storybook</span>
+    <span class="tag">Cypress E2E Testing</span>
+    <span class="tag">TypeScript</span>
+    <span class="tag">Performance Optimization</span>
+    <span class="tag">Technical Leadership</span>
+    <span class="tag">Agile / Scrum</span>
+    <span class="tag">Code Review &amp; Mentoring</span>
+    <span class="tag">CI/CD</span>
+  </div>
+
+  <!-- ── WORK EXPERIENCE ─────────────────────────────────── -->
+  <h2 class="section-heading">Work Experience</h2>
+
+  <div class="job-block">
+    <div class="job-top">
+      <h3 class="job-company">Taazaa Inc</h3>
+      <span class="job-location">Noida, Uttar Pradesh</span>
+    </div>
+    <div class="job-bottom">
+      <span class="job-title">Senior Software Engineer</span>
+      <span class="job-dates">March 2024 – Present</span>
+    </div>
+    <ul class="bullets">
+      <li>Architected a scalable NX monorepo housing 6+ Angular micro-frontends, reducing build times by ~35% through optimized caching and affected-build strategies.</li>
+      <li>Established a Storybook-driven component library adopted across 3 product teams, cutting UI inconsistency issues by ~50% in QA cycles.</li>
+      <li>Introduced Cypress E2E test coverage from 0% to 70% on critical user flows, significantly reducing production regression incidents.</li>
+      <li>Mentored 4 junior developers through weekly code reviews, pair-programming sessions, and internal tech talks; 2 were promoted within the year.</li>
+      <li>Collaborated with product owners and designers to deliver 2 major feature releases on schedule using Agile/Scrum methodology.</li>
+    </ul>
+  </div>
+
+  <div class="job-block">
+    <div class="job-top">
+      <h3 class="job-company">WebMobril Technologies Pvt. Ltd.</h3>
+      <span class="job-location">Noida, Uttar Pradesh</span>
+    </div>
+    <div class="job-bottom">
+      <span class="job-title">Senior Web Developer</span>
+      <span class="job-dates">May 2022 – February 2024</span>
+    </div>
+    <ul class="bullets">
+      <li>Architected and delivered Angular frontends for 3 client-facing applications serving 5,000+ active users, owning everything from component design to state management and routing.</li>
+      <li>Built and maintained a shared Angular component library that standardized UI patterns across multiple projects, reducing duplication and speeding up feature delivery.</li>
+      <li>Defined team-wide coding standards, Git branching strategies, and Angular style guides, reducing merge conflicts and code-review turnaround by ~30%.</li>
+      <li>Onboarded and technically guided 3 junior developers with structured code reviews that measurably improved front-end code quality scores in SonarQube.</li>
+    </ul>
+  </div>
+
+  <div class="job-block">
+    <div class="job-top">
+      <h3 class="job-company">Benchwork Technologies</h3>
+      <span class="job-location">Noida, Uttar Pradesh</span>
+    </div>
+    <div class="job-bottom">
+      <span class="job-title">Full Stack Web Developer</span>
+      <span class="job-dates">March 2020 – April 2022</span>
+    </div>
+    <ul class="bullets">
+      <li>Owned Angular frontend development for 4 web applications, building reusable component libraries and implementing complex UI workflows with TypeScript and SCSS.</li>
+      <li>Redesigned a legacy dashboard's data-rendering logic, improving page-load performance by 45% and resolving critical client-reported UX bottlenecks.</li>
+      <li>Implemented CI/CD pipelines via GitHub Actions and consumed REST APIs (payment gateways, SMS/email) with proper error handling and loading states.</li>
+    </ul>
+  </div>
+
+  <div class="job-block">
+    <div class="job-top">
+      <h3 class="job-company">Plebiscite IT Services</h3>
+      <span class="job-location">Noida, Uttar Pradesh</span>
+    </div>
+    <div class="job-bottom">
+      <span class="job-title">Angular Developer</span>
+      <span class="job-dates">October 2019 – February 2020</span>
+    </div>
+    <ul class="bullets">
+      <li>Developed 5+ responsive, cross-browser UI modules in Angular with lazy-loading and route guards, improving initial load time by 20%.</li>
+      <li>Translated Figma/XD designs into pixel-perfect components using TypeScript, HTML5, and SCSS, with consistent rendering across Chrome, Firefox, and Edge.</li>
+    </ul>
+  </div>
+
+  <div class="job-block">
+    <div class="job-top">
+      <h3 class="job-company">MSS Infotech</h3>
+      <span class="job-location">Noida, Uttar Pradesh</span>
+    </div>
+    <div class="job-bottom">
+      <span class="job-title">Web Developer</span>
+      <span class="job-dates">January 2019 – September 2019</span>
+    </div>
+    <ul class="bullets">
+      <li>Built and maintained PHP/MySQL web applications; first professional role establishing foundations in structured coding, database design, and software delivery workflows.</li>
+    </ul>
+  </div>
+
+  <!-- ── TECHNICAL SKILLS ─────────────────────────────────── -->
+  <h2 class="section-heading">Technical Skills</h2>
+  <dl class="skills-dl">
+    <div><dt>Angular &amp; Core</dt><dd>Angular (v8–19), TypeScript, RxJS, NgRx, Angular Material, Lazy Loading, Route Guards, Reactive Forms</dd></div>
+    <div><dt>UI &amp; Styling</dt><dd>HTML5, CSS3, SCSS, Tailwind CSS, Bootstrap, JavaScript (ES2022+)</dd></div>
+    <div><dt>Tooling &amp; Quality</dt><dd>NX Monorepo, Storybook, Cypress, Git, GitHub Actions, Docker</dd></div>
+    <div><dt>Also Familiar</dt><dd>ReactJS, SvelteKit <em style="color:#888;font-size:11.5px;">(working knowledge)</em></dd></div>
+    <div><dt>Earlier Stack</dt><dd>Node.js, Express.js, MongoDB, MySQL <em style="color:#888;font-size:11.5px;">(2019–2022)</em></dd></div>
+  </dl>
+
+  <!-- ── EDUCATION ─────────────────────────────────────────── -->
+  <h2 class="section-heading">Education</h2>
+
+  <div class="edu-block">
+    <div class="edu-top">
+      <span class="edu-institution">Sagar Institute of Science &amp; Technology</span>
+      <span class="edu-location">Bhopal, Madhya Pradesh</span>
+    </div>
+    <div class="edu-top" style="margin-top:2px;">
+      <span class="edu-degree">Bachelor of Technology – Information Technology</span>
+      <span class="edu-year">2019</span>
+    </div>
+  </div>
+
+
+
+  <!-- ── CERTIFICATIONS ───────────────────────────────────── -->
+  <h2 class="section-heading">Certifications</h2>
+  <ul class="cert-list">
+    <li><strong>Angular</strong> – Course Completion Certificate</li>
+    <li><strong>React</strong> – Course Completion Certificate</li>
+    <li><strong>Node.js</strong> – Course Completion Certificate</li>
+    <li><strong>Go (Golang)</strong> – Course Completion Certificate</li>
+    <li><strong>Flutter</strong> – Course Completion Certificate</li>
+  </ul>
+
+  <!-- ── LANGUAGES ─────────────────────────────────────────── -->
+  <h2 class="section-heading">Languages</h2>
+  <p class="lang-row">English, Hindi, Urdu</p>
+
+</div>
+</body>
+</html>
