@@ -1,14 +1,1468 @@
-<!DOCTYPE html><html lang="en"><head>
-    <meta charset="utf-8">
-    <title>Faisal Khan - BIO</title>
-    <base href="/portfolio/">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles.ef46db3751d8e999.css"></head>
-  <body>
-    <app-root></app-root>
-  <script src="runtime.a5ba053165658998.js" type="module"></script><script src="polyfills.e7ffe70ce8d9354f.js" type="module"></script><script src="main.abfd2564985fc0da.js" type="module"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Faisal Khan – Senior Angular &amp; Frontend Engineer with 7+ years building scalable UI systems, NX monorepos, and component design ecosystems." />
+  <meta name="keywords" content="Faisal Khan, Angular Developer, Frontend Engineer, Senior Software Engineer, TypeScript, RxJS, NgRx, NX Monorepo, Storybook, Cypress, Tailwind CSS" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://1123faisal.github.io" />
+  <meta property="og:title" content="Faisal Khan – Senior Angular &amp; Frontend Engineer | Bhopal, India" />
+  <meta property="og:description" content="I build scalable Angular frontends that teams love and users depend on." />
+  <meta property="og:image" content="https://1123faisal.github.io/profile.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Faisal Khan – Senior Angular &amp; Frontend Engineer" />
+  <meta name="twitter:description" content="I build scalable Angular frontends that teams love and users depend on." />
+  <meta name="twitter:image" content="https://1123faisal.github.io/profile.jpg" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://1123faisal.github.io" />
+  <title>Faisal Khan – Senior Angular &amp; Frontend Engineer | Bhopal, India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:ital,wght@0,300;0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Faisal Khan",
+    "jobTitle": "Senior Angular & Frontend Engineer",
+    "url": "https://1123faisal.github.io",
+    "email": "mailto:faisalsistec@gmail.com",
+    "telephone": "+919340430696",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Bhopal",
+      "addressRegion": "Madhya Pradesh",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://github.com/1123faisal",
+      "https://in.linkedin.com/in/1123faisal"
+    ]
+  }
+  </script>
 
-</body></html>
+  <style>
+    /* ═══════════════════════════════════════════════════
+       CUSTOM PROPERTIES
+    ═══════════════════════════════════════════════════ */
+    :root {
+      --bg:            #0d0f14;
+      --bg-2:          #13161d;
+      --bg-card:       #1a1e28;
+      --bg-card-h:     #1f2435;
+      --accent:        #00d4ff;
+      --accent-dim:    #00a8cc;
+      --accent-glow:   rgba(0,212,255,.14);
+      --accent-glow-s: rgba(0,212,255,.28);
+      --text:          #eef0f8;
+      --text-2:        #8892a4;
+      --text-3:        #4e5974;
+      --border:        rgba(255,255,255,.07);
+      --border-a:      rgba(0,212,255,.28);
+      --grad:          linear-gradient(135deg,#00d4ff 0%,#0099cc 100%);
+      --ff-display:    'Space Grotesk', system-ui, sans-serif;
+      --ff-body:       'Inter', system-ui, sans-serif;
+      --ff-mono:       'JetBrains Mono', 'Courier New', monospace;
+      --radius:        12px;
+      --radius-lg:     20px;
+      --t:             all .3s cubic-bezier(.4,0,.2,1);
+      --shadow:        0 4px 24px rgba(0,0,0,.4);
+      --glow:          0 0 32px rgba(0,212,255,.18);
+      --nav-h:         64px;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       RESET & BASE
+    ═══════════════════════════════════════════════════ */
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; scroll-padding-top:var(--nav-h); }
+    body { font-family:var(--ff-body); background:var(--bg); color:var(--text); line-height:1.6; overflow-x:hidden; }
+    a { text-decoration:none; color:inherit; }
+    ul { list-style:none; }
+    button { cursor:pointer; border:none; background:none; font-family:inherit; }
+    ::selection { background:var(--accent-glow-s); color:var(--accent); }
+    ::-webkit-scrollbar { width:5px; }
+    ::-webkit-scrollbar-track { background:var(--bg); }
+    ::-webkit-scrollbar-thumb { background:var(--accent-dim); border-radius:3px; }
+
+    /* ═══════════════════════════════════════════════════
+       CANVAS
+    ═══════════════════════════════════════════════════ */
+    #bg-canvas { position:fixed; inset:0; z-index:0; pointer-events:none; opacity:.35; }
+
+    /* ═══════════════════════════════════════════════════
+       LAYOUT HELPERS
+    ═══════════════════════════════════════════════════ */
+    .container { max-width:1100px; margin:0 auto; padding:0 24px; position:relative; z-index:1; }
+    .section   { padding:96px 0; }
+
+    .sec-label {
+      font-family:var(--ff-mono); font-size:11.5px; letter-spacing:3px;
+      text-transform:uppercase; color:var(--accent); margin-bottom:10px; display:block;
+    }
+    .sec-title {
+      font-family:var(--ff-display); font-size:clamp(30px,5vw,46px); font-weight:800;
+      color:var(--text); line-height:1.1; margin-bottom:14px; letter-spacing:-.5px;
+    }
+    .sec-sub { font-size:15px; color:var(--text-2); max-width:540px; line-height:1.7; }
+    .sec-hd   { margin-bottom:52px; }
+    .hl       { color:var(--accent); }
+
+    .tag {
+      font-family:var(--ff-mono); font-size:11px; font-weight:500;
+      padding:4px 10px; background:rgba(0,212,255,.07); color:var(--accent);
+      border-radius:5px; border:1px solid rgba(0,212,255,.2); white-space:nowrap;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       REVEAL
+    ═══════════════════════════════════════════════════ */
+    .reveal { opacity:0; transform:translateY(28px); transition:opacity .65s ease,transform .65s ease; }
+    .reveal.visible { opacity:1; transform:none; }
+    .d1 { transition-delay:.10s; }
+    .d2 { transition-delay:.20s; }
+    .d3 { transition-delay:.30s; }
+    .d4 { transition-delay:.40s; }
+
+    /* ═══════════════════════════════════════════════════
+       BUTTONS
+    ═══════════════════════════════════════════════════ */
+    .btn-p {
+      font-family:var(--ff-display); font-size:14px; font-weight:700;
+      color:var(--bg); background:var(--grad); padding:13px 28px; border-radius:10px;
+      display:inline-flex; align-items:center; gap:8px; transition:var(--t);
+    }
+    .btn-p:hover { box-shadow:0 8px 28px rgba(0,212,255,.4); transform:translateY(-2px); }
+    .btn-s {
+      font-family:var(--ff-display); font-size:14px; font-weight:600;
+      color:var(--text); padding:12px 28px; border-radius:10px;
+      border:1px solid var(--border); display:inline-flex; align-items:center; gap:8px; transition:var(--t);
+    }
+    .btn-s:hover { border-color:var(--accent); color:var(--accent); background:var(--accent-glow); }
+
+    /* ═══════════════════════════════════════════════════
+       NAVBAR
+    ═══════════════════════════════════════════════════ */
+    #nav {
+      position:fixed; top:0; left:0; right:0; height:var(--nav-h);
+      z-index:100; transition:var(--t);
+    }
+    #nav.scrolled {
+      background:rgba(13,15,20,.93); backdrop-filter:blur(18px);
+      -webkit-backdrop-filter:blur(18px); border-bottom:1px solid var(--border);
+    }
+    .nav-in {
+      display:flex; align-items:center; justify-content:space-between; height:var(--nav-h);
+    }
+    .nav-logo {
+      font-family:var(--ff-display); font-weight:800; font-size:19px;
+      color:var(--text); display:flex; align-items:center; gap:9px;
+    }
+    .logo-sq {
+      width:32px; height:32px; background:var(--grad); border-radius:8px;
+      display:flex; align-items:center; justify-content:center;
+      font-size:13px; font-weight:800; color:var(--bg);
+    }
+    .nav-links { display:flex; align-items:center; gap:4px; }
+    .nav-links a {
+      font-size:13.5px; font-weight:500; color:var(--text-2);
+      padding:6px 14px; border-radius:8px; transition:var(--t);
+    }
+    .nav-links a:hover  { color:var(--text); background:var(--border); }
+    .nav-links a.active { color:var(--accent); }
+    .nav-cta {
+      color:var(--bg) !important; background:var(--grad) !important;
+      font-weight:700 !important; padding:7px 18px !important; border-radius:8px !important;
+    }
+    .nav-cta:hover { box-shadow:0 4px 16px rgba(0,212,255,.4) !important; transform:translateY(-1px); }
+    .nav-burger { display:none; flex-direction:column; gap:5px; padding:8px; }
+    .nav-burger span { display:block; width:22px; height:2px; background:var(--text); border-radius:2px; transition:var(--t); }
+    .mob-menu {
+      display:flex; flex-direction:column; gap:4px;
+      position:fixed; top:var(--nav-h); left:0; right:0;
+      background:rgba(13,15,20,.97); backdrop-filter:blur(20px);
+      -webkit-backdrop-filter:blur(20px);
+      border-bottom:1px solid var(--border); padding:14px 24px 22px;
+      z-index:99;
+      visibility:hidden; opacity:0; pointer-events:none;
+      transform:translateY(-8px);
+      transition:opacity .22s ease, transform .22s ease, visibility 0s linear .22s;
+    }
+    .mob-menu.open {
+      visibility:visible; opacity:1; pointer-events:auto; transform:none;
+      transition:opacity .22s ease, transform .22s ease, visibility 0s linear 0s;
+    }
+    .mob-menu a { font-size:15px; font-weight:500; color:var(--text-2); padding:11px 16px; border-radius:8px; transition:var(--t); }
+    .mob-menu a:hover { color:var(--text); background:var(--border); }
+
+    /* ═══════════════════════════════════════════════════
+       HERO
+    ═══════════════════════════════════════════════════ */
+    #hero {
+      min-height:100vh; display:flex; align-items:center;
+      position:relative; padding:80px 0 48px;
+    }
+    .hero-grid {
+      display:grid; grid-template-columns:1fr auto;
+      gap:56px; align-items:center;
+    }
+    .hero-badge {
+      display:inline-flex; align-items:center; gap:8px;
+      font-family:var(--ff-mono); font-size:11.5px; color:var(--accent);
+      background:rgba(0,212,255,.06); border:1px solid rgba(0,212,255,.2);
+      padding:6px 14px; border-radius:100px; margin-bottom:22px;
+    }
+    .badge-dot {
+      width:6px; height:6px; background:var(--accent); border-radius:50%;
+      animation:pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(.75)} }
+
+    .hero-name {
+      font-family:var(--ff-display); font-size:clamp(40px,7vw,70px);
+      font-weight:800; line-height:1; letter-spacing:-1.5px; margin-bottom:16px;
+    }
+    .hero-name .fn { display:block; color:var(--text); }
+    .hero-name .ln {
+      display:block; background:var(--grad);
+      -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
+    }
+    .hero-tw {
+      font-family:var(--ff-display); font-size:clamp(17px,2.8vw,23px); font-weight:600;
+      color:var(--text-2); margin-bottom:18px; min-height:34px;
+      display:flex; align-items:center; gap:0;
+    }
+    .tw-prefix { color:var(--text-3); margin-right:8px; }
+    #tw-text   { color:var(--text); }
+    .tw-cursor {
+      display:inline-block; width:2px; height:1.1em;
+      background:var(--accent); margin-left:2px;
+      animation:blink 1s step-end infinite; vertical-align:middle;
+    }
+    @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
+
+    .hero-tag  { font-size:clamp(14px,1.8vw,16px); color:var(--text-2); max-width:490px; line-height:1.75; margin-bottom:34px; }
+    .hero-ctas { display:flex; gap:14px; flex-wrap:wrap; margin-bottom:44px; }
+    .hero-soc  { display:flex; gap:12px; }
+    .soc-btn   {
+      width:40px; height:40px; display:flex; align-items:center; justify-content:center;
+      border:1px solid var(--border); border-radius:10px; color:var(--text-2); transition:var(--t);
+    }
+    .soc-btn:hover { border-color:var(--accent); color:var(--accent); background:var(--accent-glow); }
+
+    /* Photo */
+    .hero-photo-wrap { position:relative; width:268px; height:268px; flex-shrink:0; }
+    .hero-ring {
+      width:268px; height:268px; border-radius:50%; padding:3px;
+      background:conic-gradient(from 0deg,#00d4ff,#006688,#00d4ff);
+      animation:spin 10s linear infinite;
+    }
+    @keyframes spin { to { transform:rotate(360deg); } }
+    .hero-ring-in {
+      width:100%; height:100%; border-radius:50%; background:var(--bg-card);
+      display:flex; align-items:center; justify-content:center; overflow:hidden;
+    }
+    .hero-ring-in img { width:100%; height:100%; object-fit:cover; border-radius:50%; }
+    .hero-initials {
+      font-family:var(--ff-display); font-size:60px; font-weight:800;
+      background:var(--grad); -webkit-background-clip:text;
+      -webkit-text-fill-color:transparent; background-clip:text;
+    }
+    .hero-badge-card {
+      position:absolute; bottom:6px; right:-14px;
+      background:var(--bg-card); border:1px solid var(--border-a);
+      border-radius:12px; padding:8px 14px;
+      display:flex; flex-direction:column; align-items:center;
+    }
+    .yrs-num { font-family:var(--ff-display); font-size:22px; font-weight:800; color:var(--accent); line-height:1; }
+    .yrs-lbl { font-family:var(--ff-mono); font-size:10px; color:var(--text-3); letter-spacing:1px; }
+
+    .hero-scroll {
+      position:absolute; bottom:28px; left:50%; transform:translateX(-50%);
+      display:flex; flex-direction:column; align-items:center; gap:7px;
+      color:var(--text-3); font-family:var(--ff-mono); font-size:10px;
+      letter-spacing:2px; text-transform:uppercase;
+      animation:bob 2.2s ease-in-out infinite;
+    }
+    @keyframes bob { 0%,100%{transform:translateX(-50%) translateY(0)} 50%{transform:translateX(-50%) translateY(-8px)} }
+
+    /* ═══════════════════════════════════════════════════
+       ABOUT
+    ═══════════════════════════════════════════════════ */
+    #about { background:var(--bg-2); position:relative; }
+    #about::before {
+      content:''; position:absolute; top:0; left:0; right:0; height:1px;
+      background:linear-gradient(90deg,transparent,var(--border-a),transparent);
+    }
+    .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start; }
+    .about-bio { font-size:15.5px; color:var(--text-2); line-height:1.8; }
+    .about-bio p+p { margin-top:16px; }
+    .em { color:var(--text); font-weight:500; }
+    .stats-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    .stat {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:22px 18px; transition:var(--t);
+    }
+    .stat:hover { border-color:var(--border-a); box-shadow:var(--glow); transform:translateY(-2px); }
+    .stat-n { font-family:var(--ff-display); font-size:34px; font-weight:800; color:var(--accent); line-height:1; margin-bottom:5px; }
+    .stat-l { font-size:13px; color:var(--text-2); font-weight:500; }
+
+    /* ═══════════════════════════════════════════════════
+       SKILLS
+    ═══════════════════════════════════════════════════ */
+    #skills { position:relative; }
+    .skill-cats { display:flex; flex-direction:column; gap:20px; }
+    .skill-cat {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-lg); padding:26px 30px; transition:var(--t);
+    }
+    .skill-cat:hover { border-color:rgba(0,212,255,.15); }
+    .cat-hd { display:flex; align-items:center; gap:12px; margin-bottom:18px; }
+    .cat-ico {
+      width:34px; height:34px; background:var(--accent-glow); border-radius:8px;
+      display:flex; align-items:center; justify-content:center; font-size:17px;
+    }
+    .cat-title { font-family:var(--ff-display); font-size:14.5px; font-weight:700; color:var(--text); }
+    .pills { display:flex; flex-wrap:wrap; gap:8px; }
+    .pill {
+      font-family:var(--ff-mono); font-size:12px; font-weight:500;
+      padding:7px 13px; background:rgba(0,212,255,.04); color:var(--text);
+      border:1px solid var(--border); border-radius:8px; transition:var(--t); cursor:default;
+    }
+    .pill:hover { background:var(--accent-glow); border-color:var(--border-a); color:var(--accent); transform:translateY(-1px); }
+    .pill.core { border-color:rgba(0,212,255,.22); background:rgba(0,212,255,.07); color:var(--accent); }
+
+    /* ═══════════════════════════════════════════════════
+       PROJECTS
+    ═══════════════════════════════════════════════════ */
+    #projects { background:var(--bg-2); position:relative; }
+    #projects::before {
+      content:''; position:absolute; top:0; left:0; right:0; height:1px;
+      background:linear-gradient(90deg,transparent,var(--border-a),transparent);
+    }
+    .proj-grid { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+    .proj-card {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-lg); padding:26px; transition:var(--t);
+      display:flex; flex-direction:column; gap:14px; position:relative; overflow:hidden;
+    }
+    .proj-card::before {
+      content:''; position:absolute; top:0; left:0; right:0; height:3px;
+      background:var(--grad); transform:scaleX(0); transform-origin:left; transition:transform .4s ease;
+    }
+    .proj-card:hover {
+      border-color:rgba(0,212,255,.22);
+      box-shadow:0 10px 44px rgba(0,0,0,.45),0 0 44px rgba(0,212,255,.07);
+      transform:translateY(-5px);
+    }
+    .proj-card:hover::before { transform:scaleX(1); }
+    .proj-card-top { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; }
+    .proj-ico {
+      width:44px; height:44px; background:var(--accent-glow); border-radius:10px;
+      display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0;
+    }
+    .proj-ctx {
+      font-family:var(--ff-mono); font-size:11px; color:var(--text-3);
+      background:var(--border); padding:3px 8px; border-radius:4px;
+    }
+    .proj-name { font-family:var(--ff-display); font-size:17px; font-weight:700; color:var(--text); line-height:1.2; }
+    .proj-desc { font-size:13.5px; color:var(--text-2); line-height:1.65; flex:1; }
+    .proj-stack { display:flex; flex-wrap:wrap; gap:6px; }
+    .proj-impact {
+      display:flex; align-items:center; gap:8px;
+      background:rgba(0,212,255,.06); border:1px solid rgba(0,212,255,.14);
+      border-radius:8px; padding:8px 13px;
+    }
+    .impact-txt { font-family:var(--ff-mono); font-size:11.5px; color:var(--accent); font-weight:500; }
+    .proj-links { display:flex; gap:8px; margin-top:auto; }
+    .proj-lnk {
+      font-size:12px; font-weight:600; color:var(--text-2);
+      display:inline-flex; align-items:center; gap:6px;
+      padding:7px 13px; border:1px solid var(--border); border-radius:8px; transition:var(--t);
+    }
+    .proj-lnk:hover { color:var(--accent); border-color:var(--border-a); background:var(--accent-glow); }
+
+    /* ═══════════════════════════════════════════════════
+       EXPERIENCE
+    ═══════════════════════════════════════════════════ */
+    #experience { position:relative; }
+    .timeline { position:relative; padding-left:38px; }
+    .timeline::before {
+      content:''; position:absolute; left:0; top:10px; bottom:0;
+      width:1px; background:linear-gradient(to bottom,var(--accent) 0%,transparent 100%);
+    }
+    .tl-item { position:relative; padding-bottom:38px; }
+    .tl-item:last-child { padding-bottom:0; }
+    .tl-dot {
+      position:absolute; left:-44px; top:10px;
+      width:11px; height:11px; border-radius:50%; background:var(--accent);
+      border:2px solid var(--bg); box-shadow:0 0 0 3px rgba(0,212,255,.2);
+    }
+    .tl-item:first-child .tl-dot { width:14px; height:14px; left:-45px; top:8px; box-shadow:0 0 0 4px rgba(0,212,255,.25),var(--glow); }
+    .tl-card {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:22px 26px; transition:var(--t);
+    }
+    .tl-card:hover { border-color:rgba(0,212,255,.18); }
+    .tl-hd { display:flex; justify-content:space-between; align-items:flex-start; gap:14px; margin-bottom:4px; }
+    .tl-co { font-family:var(--ff-display); font-size:15.5px; font-weight:700; color:var(--text); }
+    .tl-dt { font-family:var(--ff-mono); font-size:11.5px; color:var(--text-3); white-space:nowrap; flex-shrink:0; }
+    .tl-role { font-size:13.5px; color:var(--accent); font-weight:600; margin-bottom:12px; }
+    .tl-bullets { display:flex; flex-direction:column; gap:6px; }
+    .tl-bullets li { font-size:13.5px; color:var(--text-2); line-height:1.55; display:flex; gap:9px; }
+    .tl-bullets li::before { content:'▸'; color:var(--accent); flex-shrink:0; margin-top:1px; }
+
+    /* ═══════════════════════════════════════════════════
+       TESTIMONIALS
+    ═══════════════════════════════════════════════════ */
+    #testimonials { background:var(--bg-2); position:relative; }
+    #testimonials::before, #testimonials::after {
+      content:''; position:absolute; left:0; right:0; height:1px;
+      background:linear-gradient(90deg,transparent,var(--border-a),transparent);
+    }
+    #testimonials::before { top:0; }
+    #testimonials::after  { bottom:0; }
+    .testi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
+    .testi-card {
+      background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius-lg); padding:26px;
+      transition:var(--t); display:flex; flex-direction:column; gap:18px;
+    }
+    .testi-card:hover { border-color:rgba(0,212,255,.18); transform:translateY(-3px); }
+    .quote-mark { font-size:44px; font-family:Georgia,serif; color:var(--accent); opacity:.35; line-height:.8; }
+    .testi-txt { font-size:13.5px; color:var(--text-2); line-height:1.75; font-style:italic; flex:1; }
+    .testi-auth {
+      display:flex; align-items:center; gap:11px;
+      padding-top:14px; border-top:1px solid var(--border);
+    }
+    .t-avatar {
+      width:38px; height:38px; border-radius:50%; flex-shrink:0;
+      background:var(--bg-2); border:1px solid var(--border-a);
+      display:flex; align-items:center; justify-content:center;
+      font-family:var(--ff-display); font-size:13px; font-weight:700; color:var(--accent);
+    }
+    .t-name { font-family:var(--ff-display); font-size:13.5px; font-weight:700; color:var(--text); }
+    .t-role { font-size:11.5px; color:var(--text-3); margin-top:2px; }
+
+    /* ═══════════════════════════════════════════════════
+       CONTACT
+    ═══════════════════════════════════════════════════ */
+    #contact { position:relative; }
+    .contact-grid { display:grid; grid-template-columns:1fr 1.35fr; gap:60px; align-items:start; }
+    .contact-info h3 { font-family:var(--ff-display); font-size:21px; font-weight:700; color:var(--text); margin-bottom:12px; }
+    .contact-info p  { font-size:14.5px; color:var(--text-2); line-height:1.75; margin-bottom:28px; }
+    .c-links { display:flex; flex-direction:column; gap:12px; }
+    .c-link  { display:flex; align-items:center; gap:12px; font-size:13.5px; color:var(--text-2); transition:var(--t); }
+    .c-link:hover { color:var(--accent); }
+    .c-ico   {
+      width:36px; height:36px; background:var(--bg-card); border:1px solid var(--border);
+      border-radius:8px; display:flex; align-items:center; justify-content:center;
+      font-size:14px; transition:var(--t); flex-shrink:0;
+    }
+    .c-link:hover .c-ico { border-color:var(--border-a); background:var(--accent-glow); }
+
+    .contact-form { display:flex; flex-direction:column; gap:15px; }
+    .fg { display:flex; flex-direction:column; gap:6px; }
+    .fg label {
+      font-family:var(--ff-mono); font-size:11px; font-weight:500;
+      color:var(--text-2); letter-spacing:.5px; text-transform:uppercase;
+    }
+    .fg input, .fg textarea {
+      width:100%; background:var(--bg-card); border:1px solid var(--border);
+      border-radius:var(--radius); padding:12px 15px; font-size:14px;
+      font-family:var(--ff-body); color:var(--text); transition:var(--t); outline:none; resize:none;
+    }
+    .fg input::placeholder, .fg textarea::placeholder { color:var(--text-3); }
+    .fg input:focus, .fg textarea:focus {
+      border-color:var(--border-a); box-shadow:0 0 0 3px rgba(0,212,255,.08);
+    }
+    .fg textarea { min-height:128px; }
+    .fg-row { display:grid; grid-template-columns:1fr 1fr; gap:15px; }
+    .form-btn {
+      font-family:var(--ff-display); font-size:14.5px; font-weight:700;
+      color:var(--bg); background:var(--grad); padding:13px 27px;
+      border-radius:var(--radius); transition:var(--t);
+      align-self:flex-start; display:inline-flex; align-items:center; gap:8px;
+    }
+    .form-btn:hover { box-shadow:0 8px 24px rgba(0,212,255,.35); transform:translateY(-2px); }
+    .form-note { font-size:11.5px; color:var(--text-3); }
+    .form-note a { color:var(--accent); }
+
+    /* ═══════════════════════════════════════════════════
+       FOOTER
+    ═══════════════════════════════════════════════════ */
+    #footer { background:var(--bg-2); border-top:1px solid var(--border); padding:28px 0; }
+    .footer-in { display:flex; align-items:center; justify-content:space-between; gap:14px; }
+    .foot-copy { font-size:13px; color:var(--text-3); }
+    .foot-copy .ac { color:var(--accent); }
+    .foot-links { display:flex; gap:20px; }
+    .foot-links a { font-size:13px; color:var(--text-3); transition:var(--t); }
+    .foot-links a:hover { color:var(--accent); }
+
+    /* ═══════════════════════════════════════════════════
+       RESPONSIVE
+    ═══════════════════════════════════════════════════ */
+    @media(max-width:880px){
+      .hero-grid { grid-template-columns:1fr; gap:36px; text-align:center; }
+      .hero-photo-wrap { order:-1; margin:0 auto; }
+      .hero-badge,.hero-ctas,.hero-soc,.hero-tw { justify-content:center; }
+      .hero-tag { margin:0 auto 34px; }
+      .about-grid  { grid-template-columns:1fr; gap:36px; }
+      .proj-grid   { grid-template-columns:1fr; }
+      .testi-grid  { grid-template-columns:1fr; }
+      .contact-grid{ grid-template-columns:1fr; gap:36px; }
+      .nav-links   { display:none; }
+      .nav-burger  { display:flex; }
+      .section     { padding:64px 0; }
+      .footer-in   { flex-direction:column; text-align:center; }
+    }
+    @media(max-width:560px){
+      .stats-grid { grid-template-columns:1fr 1fr; }
+      .fg-row     { grid-template-columns:1fr; }
+      .hero-ring, .hero-photo-wrap { width:210px; height:210px; }
+    }
+
+    /* ═══════════════════════════════════════════════════
+       SCROLL PROGRESS BAR
+    ═══════════════════════════════════════════════════ */
+    #scroll-progress {
+      position:fixed; top:0; left:0; height:3px; z-index:200;
+      background:var(--grad); width:0%; transition:width .1s linear;
+      pointer-events:none;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       BACK TO TOP
+    ═══════════════════════════════════════════════════ */
+    #back-top {
+      position:fixed; bottom:28px; right:28px; z-index:90;
+      width:44px; height:44px; background:var(--bg-card);
+      border:1px solid var(--border); border-radius:12px;
+      display:flex; align-items:center; justify-content:center;
+      color:var(--text-2); cursor:pointer;
+      opacity:0; pointer-events:none; transition:var(--t);
+    }
+    #back-top.visible { opacity:1; pointer-events:auto; }
+    #back-top:hover {
+      border-color:var(--border-a); color:var(--accent);
+      background:var(--accent-glow); transform:translateY(-2px); box-shadow:var(--glow);
+    }
+
+    /* ═══════════════════════════════════════════════════
+       SKILL PILL TOOLTIPS
+    ═══════════════════════════════════════════════════ */
+    .pill { position:relative; }
+    .pill[data-tip]::after {
+      content:attr(data-tip);
+      position:absolute; bottom:calc(100% + 7px); left:50%;
+      transform:translateX(-50%);
+      background:var(--bg-2); border:1px solid var(--border-a);
+      color:var(--accent); font-size:10.5px; font-family:var(--ff-mono);
+      padding:4px 10px; border-radius:6px; white-space:nowrap;
+      pointer-events:none; opacity:0; transition:opacity .18s ease;
+      z-index:20;
+    }
+    .pill[data-tip]:hover::after { opacity:1; }
+
+    /* ═══════════════════════════════════════════════════
+       COPY EMAIL BUTTON
+    ═══════════════════════════════════════════════════ */
+    .copy-btn {
+      background:none; border:1px solid var(--border); border-radius:5px;
+      padding:2px 8px; font-size:10.5px; font-family:var(--ff-mono);
+      color:var(--text-3); cursor:pointer; margin-left:8px; transition:var(--t);
+    }
+    .copy-btn:hover { border-color:var(--border-a); color:var(--accent); }
+    .copy-btn.copied { border-color:#00dd77; color:#00dd77 !important; }
+
+    /* ═══════════════════════════════════════════════════
+       FORM STATUS
+    ═══════════════════════════════════════════════════ */
+    .form-status {
+      display:none; padding:12px 16px; border-radius:var(--radius);
+      font-size:13.5px; font-weight:500; line-height:1.55;
+    }
+    .form-status.success {
+      display:block;
+      background:rgba(0,221,119,.06); border:1px solid rgba(0,221,119,.22); color:#00dd77;
+    }
+    .form-status.error {
+      display:block;
+      background:rgba(255,80,80,.06); border:1px solid rgba(255,80,80,.22); color:#ff6060;
+    }
+
+    /* ═══════════════════════════════════════════════════
+       PREFERS REDUCED MOTION
+    ═══════════════════════════════════════════════════ */
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior:auto; }
+      *, *::before, *::after {
+        animation-duration:.01ms !important;
+        animation-iteration-count:1 !important;
+        transition-duration:.01ms !important;
+      }
+      #bg-canvas { display:none !important; }
+      .hero-ring { animation:none !important; }
+      .badge-dot { animation:none !important; }
+      .hero-scroll { display:none !important; }
+      .tw-cursor { animation:none !important; }
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- NOSCRIPT: ensure all content visible without JS -->
+<noscript>
+  <style>
+    .reveal { opacity:1 !important; transform:none !important; }
+    #bg-canvas { display:none !important; }
+    .hero-scroll { display:none !important; }
+    .tw-cursor { display:none; }
+  </style>
+</noscript>
+
+<!-- SCROLL PROGRESS -->
+<div id="scroll-progress" aria-hidden="true"></div>
+
+<!-- BACK TO TOP -->
+<button id="back-top" aria-label="Back to top" title="Back to top">
+  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<!-- CANVAS -->
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<!-- ══════════════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════════════ -->
+<nav id="nav" role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <div class="nav-in">
+      <a href="#hero" class="nav-logo" aria-label="Faisal Khan — home">
+        <span class="logo-sq">FK</span> Faisal Khan
+      </a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="faisal_khan_resume.pdf" download class="nav-cta">↓ Resume</a></li>
+      </ul>
+      <button class="nav-burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<nav class="mob-menu" id="mobMenu" aria-label="Mobile menu">
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#contact">Contact</a>
+  <a href="faisal_khan_resume.pdf" download style="color:var(--accent);margin-top:6px;">↓ Download Resume</a>
+</nav>
+
+<!-- ══════════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════════ -->
+<section id="hero" aria-label="Introduction">
+  <div class="container">
+    <div class="hero-grid">
+
+      <!-- Left — text -->
+      <div>
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Open to new opportunities
+        </div>
+
+        <h1 class="hero-name">
+          <span class="fn">Faisal</span>
+          <span class="ln">Khan</span>
+        </h1>
+
+        <div class="hero-tw" aria-live="polite">
+          <span class="tw-prefix">//</span>
+          <span id="tw-text"></span><span class="tw-cursor" aria-hidden="true"></span>
+        </div>
+
+        <p class="hero-tag">
+          I build scalable Angular frontends that teams love and users depend on —
+          from monorepo architecture decisions to pixel-perfect delivery.
+        </p>
+
+        <div class="hero-ctas">
+          <a href="#projects" class="btn-p">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            View My Work
+          </a>
+          <a href="faisal_khan_resume.pdf" download class="btn-s">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download Resume
+          </a>
+        </div>
+
+        <div class="hero-soc">
+          <a href="mailto:faisalsistec@gmail.com" class="soc-btn" aria-label="Email Faisal">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7"/></svg>
+          </a>
+          <a href="https://github.com/1123faisal" target="_blank" rel="noopener" class="soc-btn" aria-label="GitHub profile">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          </a>
+          <a href="https://in.linkedin.com/in/1123faisal" target="_blank" rel="noopener" class="soc-btn" aria-label="LinkedIn profile">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Right — photo -->
+      <div class="hero-photo-wrap">
+        <div class="hero-ring">
+          <div class="hero-ring-in">
+            <!-- Replace profile.jpg with your actual photo file -->
+            <img src="profile.jpg" alt="Faisal Khan" onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+            <span class="hero-initials" style="display:none;">FK</span>
+          </div>
+        </div>
+        <div class="hero-badge-card">
+          <span class="yrs-num">7+</span>
+          <span class="yrs-lbl">Yrs Exp</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="hero-scroll" aria-hidden="true">
+    <span>scroll</span>
+    <svg width="14" height="18" viewBox="0 0 14 18" fill="none"><rect x=".75" y=".75" width="12.5" height="16.5" rx="6.25" stroke="currentColor" stroke-width="1.5"/><circle cx="7" cy="5.5" r="1.75" fill="currentColor"/></svg>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════════════ -->
+<section id="about" class="section" aria-labelledby="about-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">01 — About Me</span>
+      <h2 id="about-h" class="sec-title">The Engineer <span class="hl">Behind the Code</span></h2>
+    </header>
+    <div class="about-grid">
+      <div class="about-bio reveal d1">
+        <p>
+          I'm a <span class="em">Senior Angular &amp; Frontend Engineer</span> based in Bhopal, India,
+          with 7+ years of experience crafting scalable, high-performance web applications. My core
+          expertise lies in architecting large-scale Angular monorepos, building design systems, and
+          leading frontend teams to deliver quality products.
+        </p>
+        <p>
+          Over the past 3 years I have been <span class="em">exclusively focused on Angular, TypeScript,
+          RxJS, and NX Monorepo architectures</span> — working at the intersection of engineering rigour
+          and developer experience. I take pride in writing code that is easy to maintain, test, and extend.
+        </p>
+        <p>
+          When I'm not building production UIs, I'm mentoring junior engineers, exploring reactive
+          programming patterns, or running internal tech talks and code review sessions to lift the
+          whole team's quality bar.
+        </p>
+      </div>
+      <div class="stats-grid reveal d2">
+        <div class="stat">
+          <div class="stat-n">7+</div>
+          <div class="stat-l">Years of Experience</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">20+</div>
+          <div class="stat-l">Projects Delivered</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">5</div>
+          <div class="stat-l">Enterprise Applications</div>
+        </div>
+        <div class="stat">
+          <div class="stat-n">3</div>
+          <div class="stat-l">Teams Led &amp; Mentored</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════════════════ -->
+<section id="skills" class="section" aria-labelledby="skills-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">02 — Skills &amp; Technologies</span>
+      <h2 id="skills-h" class="sec-title">My Technical <span class="hl">Toolkit</span></h2>
+      <p class="sec-sub">Focused on Angular and the modern frontend ecosystem — with honest context on secondary and earlier skills.</p>
+    </header>
+
+    <div class="skill-cats">
+
+      <div class="skill-cat reveal d1">
+        <div class="cat-hd">
+          <div class="cat-ico">⚡</div>
+          <span class="cat-title">Angular &amp; Core — Primary Expertise</span>
+        </div>
+        <div class="pills">
+          <span class="pill core" data-tip="7 years · Primary expertise">Angular v8–v19</span>
+          <span class="pill core" data-tip="5+ years · Used daily">TypeScript</span>
+          <span class="pill core" data-tip="4+ years · Reactive streams & async">RxJS</span>
+          <span class="pill core" data-tip="3+ years · NgRx store, effects, selectors">NgRx</span>
+          <span class="pill core" data-tip="Theming, a11y, custom components">Angular Material</span>
+          <span class="pill core" data-tip="Complex validation & dynamic forms">Reactive Forms</span>
+          <span class="pill core" data-tip="Route-level code splitting">Lazy Loading</span>
+          <span class="pill core" data-tip="Auth, role & permission guards">Route Guards</span>
+          <span class="pill" data-tip="Angular v15+ modern API">Standalone Components</span>
+          <span class="pill" data-tip="OnPush strategy & memoisation">Change Detection</span>
+          <span class="pill" data-tip="Atomic, smart/dumb patterns">Component Architecture</span>
+          <span class="pill" data-tip="Angular v17+ reactivity primitives">Signals (v17+)</span>
+        </div>
+      </div>
+
+      <div class="skill-cat reveal d2">
+        <div class="cat-hd">
+          <div class="cat-ico">🎨</div>
+          <span class="cat-title">UI &amp; Styling</span>
+        </div>
+        <div class="pills">
+          <span class="pill">HTML5</span>
+          <span class="pill">CSS3</span>
+          <span class="pill">SCSS / Sass</span>
+          <span class="pill">Tailwind CSS</span>
+          <span class="pill">Bootstrap</span>
+          <span class="pill">CSS Animations</span>
+          <span class="pill">Responsive Design</span>
+          <span class="pill">JavaScript (ES2022+)</span>
+          <span class="pill">CSS Custom Properties</span>
+        </div>
+      </div>
+
+      <div class="skill-cat reveal d3">
+        <div class="cat-hd">
+          <div class="cat-ico">🛠</div>
+          <span class="cat-title">Tooling &amp; Quality</span>
+        </div>
+        <div class="pills">
+          <span class="pill core">NX Monorepo</span>
+          <span class="pill core">Storybook</span>
+          <span class="pill core">Cypress</span>
+          <span class="pill">Git &amp; GitHub Actions</span>
+          <span class="pill">Docker</span>
+          <span class="pill">SonarQube</span>
+          <span class="pill">Jest</span>
+          <span class="pill">Webpack</span>
+          <span class="pill">CI/CD Pipelines</span>
+        </div>
+      </div>
+
+      <div class="skill-cat reveal d4">
+        <div class="cat-hd">
+          <div class="cat-ico">📦</div>
+          <span class="cat-title">Also Familiar With</span>
+        </div>
+        <div class="pills">
+          <span class="pill">ReactJS <small style="opacity:.5;font-size:10px;">(working knowledge)</small></span>
+          <span class="pill">SvelteKit <small style="opacity:.5;font-size:10px;">(working knowledge)</small></span>
+          <span class="pill">Flutter</span>
+          <span class="pill">REST APIs</span>
+          <span class="pill">Node.js <small style="opacity:.5;font-size:10px;">(2019–2022)</small></span>
+          <span class="pill">MongoDB <small style="opacity:.5;font-size:10px;">(2019–2022)</small></span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════════════════ -->
+<section id="projects" class="section" aria-labelledby="projects-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">03 — Featured Projects</span>
+      <h2 id="projects-h" class="sec-title">Things I've <span class="hl">Built</span></h2>
+      <p class="sec-sub">Selected work showcasing Angular architecture, performance engineering, and team-scale UI delivery.</p>
+    </header>
+
+    <div class="proj-grid">
+
+      <!-- Card 1 -->
+      <article class="proj-card reveal d1">
+        <div class="proj-card-top">
+          <div class="proj-ico">📊</div>
+          <span class="proj-ctx">Finance SaaS</span>
+        </div>
+        <h3 class="proj-name">Enterprise Analytics Dashboard</h3>
+        <p class="proj-desc">Large-scale Angular + NgRx dashboard serving 50,000+ daily users. Complex state management, real-time data feeds, and granular role-based permission layers.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular</span>
+          <span class="tag">NgRx</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">RxJS</span>
+          <span class="tag">D3.js</span>
+        </div>
+        <div class="proj-impact">
+          <span>📈</span>
+          <span class="impact-txt">50K+ daily active users · 35% faster build</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/1123faisal/enterprise-dashboard" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2 -->
+      <article class="proj-card reveal d2">
+        <div class="proj-card-top">
+          <div class="proj-ico">🧩</div>
+          <span class="proj-ctx">Internal Platform</span>
+        </div>
+        <h3 class="proj-name">Angular Component Design System</h3>
+        <p class="proj-desc">Comprehensive, token-based Angular component library with Storybook, adopted by 3 product teams. WCAG-AA accessible with full Cypress coverage.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular</span>
+          <span class="tag">Storybook</span>
+          <span class="tag">NX</span>
+          <span class="tag">SCSS</span>
+          <span class="tag">Cypress</span>
+        </div>
+        <div class="proj-impact">
+          <span>⚡</span>
+          <span class="impact-txt">Adopted by 3 teams · 50% fewer QA UI bugs</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/1123faisal/angular-design-system" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 3 -->
+      <article class="proj-card reveal d3">
+        <div class="proj-card-top">
+          <div class="proj-ico">🛒</div>
+          <span class="proj-ctx">E-Commerce</span>
+        </div>
+        <h3 class="proj-name">Angular PWA Storefront</h3>
+        <p class="proj-desc">Progressive Web App with offline-first architecture, lazy-loaded feature modules, and service workers for zero-network cart interaction. Lighthouse 95+.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular PWA</span>
+          <span class="tag">Service Workers</span>
+          <span class="tag">Lazy Loading</span>
+          <span class="tag">IndexedDB</span>
+        </div>
+        <div class="proj-impact">
+          <span>🚀</span>
+          <span class="impact-txt">45% faster page load · Lighthouse score 95+</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/1123faisal/angular-pwa-storefront" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 4 -->
+      <article class="proj-card reveal d4">
+        <div class="proj-card-top">
+          <div class="proj-ico">📡</div>
+          <span class="proj-ctx">SaaS Platform</span>
+        </div>
+        <h3 class="proj-name">Real-time Analytics UI</h3>
+        <p class="proj-desc">WebSocket-driven live data visualization with D3.js charts embedded in Angular. Handles 1,000+ events/sec using RxJS pipelines for throttling and buffering.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular</span>
+          <span class="tag">D3.js</span>
+          <span class="tag">WebSockets</span>
+          <span class="tag">RxJS</span>
+          <span class="tag">NgRx</span>
+        </div>
+        <div class="proj-impact">
+          <span>⚡</span>
+          <span class="impact-txt">1,000+ events/sec · &lt;100ms render latency</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://github.com/1123faisal/realtime-analytics-ui" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            Source
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     EXPERIENCE
+══════════════════════════════════════════════════════ -->
+<section id="experience" class="section" aria-labelledby="exp-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">04 — Work Experience</span>
+      <h2 id="exp-h" class="sec-title">Where I've <span class="hl">Worked</span></h2>
+    </header>
+
+    <div class="timeline">
+
+      <div class="tl-item reveal d1">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-hd">
+            <span class="tl-co">Taazaa Inc</span>
+            <span class="tl-dt">March 2024 – Present</span>
+          </div>
+          <div class="tl-role">Senior Software Engineer &nbsp;·&nbsp; Noida, Uttar Pradesh</div>
+          <ul class="tl-bullets">
+            <li>Architected a scalable NX monorepo housing 6+ Angular micro-frontends, reducing build times by ~35% through optimised caching and affected-build strategies.</li>
+            <li>Established a Storybook-driven component library adopted across 3 product teams, cutting UI inconsistency issues by ~50% in QA cycles.</li>
+            <li>Introduced Cypress E2E test coverage from 0% to 70%; mentored 4 junior developers through weekly code reviews and tech talks, with 2 promoted within the year.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal d2">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-hd">
+            <span class="tl-co">WebMobril Technologies Pvt. Ltd.</span>
+            <span class="tl-dt">May 2022 – Feb 2024</span>
+          </div>
+          <div class="tl-role">Senior Web Developer &nbsp;·&nbsp; Noida, Uttar Pradesh</div>
+          <ul class="tl-bullets">
+            <li>Architected and delivered Angular frontends for 3 client-facing applications serving 5,000+ active users, owning component design, state management, and routing.</li>
+            <li>Built a shared Angular component library that standardised UI patterns across multiple projects, reducing duplication and speeding up feature delivery.</li>
+            <li>Defined team-wide coding standards and Git branching strategies, reducing code-review turnaround by ~30%.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal d3">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-hd">
+            <span class="tl-co">Benchwork Technologies</span>
+            <span class="tl-dt">March 2020 – April 2022</span>
+          </div>
+          <div class="tl-role">Full Stack Web Developer &nbsp;·&nbsp; Noida, Uttar Pradesh</div>
+          <ul class="tl-bullets">
+            <li>Owned Angular frontend development for 4 web applications with reusable component libraries and TypeScript/SCSS-based UI workflows.</li>
+            <li>Redesigned a legacy dashboard's data-rendering logic, improving page-load performance by 45% and resolving key client-reported UX bottlenecks.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal d4">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-hd">
+            <span class="tl-co">Plebiscite IT Services</span>
+            <span class="tl-dt">Oct 2019 – Feb 2020</span>
+          </div>
+          <div class="tl-role">Angular Developer &nbsp;·&nbsp; Noida, Uttar Pradesh</div>
+          <ul class="tl-bullets">
+            <li>Developed 5+ responsive, cross-browser UI modules in Angular with lazy-loading and route guards, improving initial load time by 20%.</li>
+            <li>Translated Figma/XD designs into pixel-perfect components using TypeScript, HTML5, and SCSS.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-card">
+          <div class="tl-hd">
+            <span class="tl-co">MSS Infotech</span>
+            <span class="tl-dt">Jan 2019 – Sep 2019</span>
+          </div>
+          <div class="tl-role">Web Developer &nbsp;·&nbsp; Noida, Uttar Pradesh</div>
+          <ul class="tl-bullets">
+            <li>Built and maintained PHP/MySQL web applications — first professional role establishing foundations in structured coding, database design, and software delivery.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════════════════ -->
+<section id="testimonials" class="section" aria-labelledby="testi-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">05 — Recommendations</span>
+      <h2 id="testi-h" class="sec-title">What People <span class="hl">Say</span></h2>
+    </header>
+    <div class="testi-grid">
+
+      <div class="testi-card reveal d1">
+        <div class="quote-mark">"</div>
+        <p class="testi-txt">Faisal has an exceptional ability to turn complex requirements into clean, scalable Angular architectures. His NX monorepo setup saved our team weeks of work and is now the frontend standard across all our product lines.</p>
+        <div class="testi-auth">
+          <div class="t-avatar">SM</div>
+          <div>
+            <div class="t-name">Sarah M.</div>
+            <div class="t-role">Engineering Manager · Taazaa Inc</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal d2">
+        <div class="quote-mark">"</div>
+        <p class="testi-txt">Working with Faisal elevated the entire team's Angular practices. His code reviews are thorough yet encouraging — two of the junior devs he mentored received promotions within a year. Rarely seen that kind of impact from one engineer.</p>
+        <div class="testi-auth">
+          <div class="t-avatar">RK</div>
+          <div>
+            <div class="t-name">Rahul K.</div>
+            <div class="t-role">Senior Product Manager · WebMobril</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal d3">
+        <div class="quote-mark">"</div>
+        <p class="testi-txt">Faisal's Storybook design system was a game-changer. Before it, every team had inconsistent components; after, we shipped features twice as fast with pixel-perfect UI. His attention to developer experience is genuinely rare.</p>
+        <div class="testi-auth">
+          <div class="t-avatar">AP</div>
+          <div>
+            <div class="t-name">Anjali P.</div>
+            <div class="t-role">Frontend Lead · Benchwork Technologies</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════════════ -->
+<section id="contact" class="section" aria-labelledby="contact-h">
+  <div class="container">
+    <header class="sec-hd reveal">
+      <span class="sec-label">06 — Get In Touch</span>
+      <h2 id="contact-h" class="sec-title">Let's <span class="hl">Work Together</span></h2>
+    </header>
+    <div class="contact-grid">
+
+      <div class="reveal d1">
+        <h3 style="font-family:var(--ff-display);font-size:20px;font-weight:700;color:var(--text);margin-bottom:12px;">Open to Opportunities</h3>
+        <p style="font-size:14.5px;color:var(--text-2);line-height:1.75;margin-bottom:28px;">Whether it's a full-time senior Angular role, a contract engagement, or a technical conversation — I'm always happy to connect with the right teams and fellow engineers.</p>
+        <div class="c-links">
+          <a href="mailto:faisalsistec@gmail.com" class="c-link">
+            <span class="c-ico">✉</span> faisalsistec@gmail.com
+            <button id="copy-email" class="copy-btn" type="button" aria-label="Copy email address">Copy</button>
+          </a>
+          <a href="https://in.linkedin.com/in/1123faisal" target="_blank" rel="noopener" class="c-link">
+            <span class="c-ico" style="font-size:11px;font-weight:800;">in</span> linkedin.com/in/1123faisal
+          </a>
+          <a href="https://github.com/1123faisal" target="_blank" rel="noopener" class="c-link">
+            <span class="c-ico">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            </span>
+            github.com/1123faisal
+          </a>
+          <a href="tel:+919340430696" class="c-link">
+            <span class="c-ico">📞</span> +91 93404 30696
+          </a>
+        </div>
+      </div>
+
+      <!-- Formspree form -->
+      <form
+        class="contact-form reveal d2"
+        id="contactForm"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        aria-label="Contact form"
+      >
+        <div class="fg-row">
+          <div class="fg">
+            <label for="c-name">Name</label>
+            <input type="text" id="c-name" name="name" placeholder="Jane Smith" required autocomplete="name" />
+          </div>
+          <div class="fg">
+            <label for="c-email">Email</label>
+            <input type="email" id="c-email" name="email" placeholder="jane@company.com" required autocomplete="email" />
+          </div>
+        </div>
+        <div class="fg">
+          <label for="c-subject">Subject</label>
+          <input type="text" id="c-subject" name="subject" placeholder="Senior Angular role / project enquiry" />
+        </div>
+        <div class="fg">
+          <label for="c-msg">Message</label>
+          <textarea id="c-msg" name="message" placeholder="Tell me about the role or project..." required></textarea>
+        </div>
+        <button type="submit" class="form-btn">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          Send Message
+        </button>
+        <div id="form-status" class="form-status" role="status" aria-live="polite"></div>
+        <p class="form-note">
+          ⚡ Replace <code style="color:var(--accent);font-size:11px;">YOUR_FORM_ID</code> in the form action with your
+          <a href="https://formspree.io" target="_blank" rel="noopener">Formspree</a> endpoint for direct delivery.
+          Until then, Send will open your email client as a fallback.
+        </p>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════════ -->
+<footer id="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-in">
+      <p class="foot-copy">Built by <span class="ac">Faisal Khan</span> &nbsp;·&nbsp; Bhopal, India &nbsp;·&nbsp; 2026</p>
+      <div class="foot-links">
+        <a href="https://github.com/1123faisal" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://in.linkedin.com/in/1123faisal" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:faisalsistec@gmail.com">Email</a>
+        <a href="faisal_khan_resume.pdf" download>Resume</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════════════════════════ -->
+<script>
+
+/* ── PREFERS-REDUCED-MOTION ──────────────────────────── */
+const prefersRM = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ── CANVAS PARTICLE NETWORK ─────────────────────────── */
+(function(){
+  const cvs = document.getElementById('bg-canvas');
+  if (prefersRM) { cvs.style.display = 'none'; return; }
+  const ctx = cvs.getContext('2d');
+  const mobile = innerWidth < 768;
+  const N = mobile ? 36 : 75, MAXD = mobile ? 100 : 135;
+  let W, H, pts = [], alive = true;
+
+  function resize(){ W = cvs.width = innerWidth; H = cvs.height = innerHeight; }
+  function init(){
+    pts = Array.from({length:N}, () => ({
+      x: Math.random()*W, y: Math.random()*H,
+      vx:(Math.random()-.5)*.45, vy:(Math.random()-.5)*.45,
+      r: Math.random()*1.4+.5
+    }));
+  }
+  function frame(){
+    if(alive){
+      ctx.clearRect(0,0,W,H);
+      for(let i=0;i<pts.length;i++){
+        for(let j=i+1;j<pts.length;j++){
+          const dx=pts[i].x-pts[j].x, dy=pts[i].y-pts[j].y;
+          const d=Math.hypot(dx,dy);
+          if(d<MAXD){
+            ctx.beginPath();
+            ctx.strokeStyle=`rgba(0,212,255,${.11*(1-d/MAXD)})`;
+            ctx.lineWidth=.55;
+            ctx.moveTo(pts[i].x,pts[i].y);
+            ctx.lineTo(pts[j].x,pts[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+      pts.forEach(p=>{
+        ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+        ctx.fillStyle='rgba(0,212,255,.38)'; ctx.fill();
+        p.x+=p.vx; p.y+=p.vy;
+        if(p.x<0||p.x>W) p.vx*=-1;
+        if(p.y<0||p.y>H) p.vy*=-1;
+      });
+    }
+    requestAnimationFrame(frame);
+  }
+  document.addEventListener('visibilitychange', ()=>{ alive = document.visibilityState === 'visible'; });
+  window.addEventListener('resize',()=>{resize();init();},{passive:true});
+  resize(); init(); frame();
+}());
+
+
+/* ── TYPEWRITER ──────────────────────────────────────── */
+(function(){
+  const el = document.getElementById('tw-text');
+  if (!el) return;
+  if (prefersRM) { el.textContent = 'Senior Frontend Engineer'; return; }
+  const words = ['Senior Frontend Engineer','Angular Specialist','UI Architecture Expert','NX Monorepo Architect'];
+  let wi=0, ci=0, del=false;
+  function tick(){
+    const w = words[wi];
+    el.textContent = del ? w.slice(0,ci-1) : w.slice(0,ci+1);
+    del ? ci-- : ci++;
+    if(!del && ci===w.length){ del=true; setTimeout(tick,2000); return; }
+    if(del && ci===0){ del=false; wi=(wi+1)%words.length; }
+    setTimeout(tick, del?48:92);
+  }
+  setTimeout(tick,700);
+}());
+
+
+/* ── NAVBAR SCROLL + ACTIVE LINK ─────────────────────── */
+(function(){
+  const nav = document.getElementById('nav');
+  const links = document.querySelectorAll('.nav-links a:not(.nav-cta)');
+  const sections = document.querySelectorAll('section[id]');
+  function onScroll(){
+    nav.classList.toggle('scrolled', scrollY>28);
+    let cur='';
+    sections.forEach(s=>{ if(scrollY>=s.offsetTop-90) cur=s.id; });
+    links.forEach(l=>l.classList.toggle('active', l.getAttribute('href')==='#'+cur));
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+}());
+
+
+/* ── MOBILE MENU ─────────────────────────────────────── */
+(function(){
+  const btn  = document.getElementById('burger');
+  const menu = document.getElementById('mobMenu');
+  const [s0,s1,s2] = btn.querySelectorAll('span');
+  function close(){
+    menu.classList.remove('open');
+    btn.setAttribute('aria-expanded','false');
+    s0.style.transform=s2.style.transform='';
+    s1.style.opacity='1';
+  }
+  btn.addEventListener('click',()=>{
+    const open = menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded', open);
+    s0.style.transform = open ? 'rotate(45deg) translate(5px,5px)' : '';
+    s1.style.opacity   = open ? '0' : '1';
+    s2.style.transform = open ? 'rotate(-45deg) translate(5px,-5px)' : '';
+  });
+  menu.querySelectorAll('a').forEach(a=>a.addEventListener('click', close));
+}());
+
+
+/* ── SCROLL REVEAL ───────────────────────────────────── */
+(function(){
+  const io = new IntersectionObserver(
+    entries => entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('visible'); io.unobserve(e.target); } }),
+    {threshold:.10}
+  );
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+}());
+
+
+/* ── SCROLL PROGRESS BAR ─────────────────────────────── */
+(function(){
+  const bar = document.getElementById('scroll-progress');
+  if (!bar) return;
+  function update(){
+    const h = document.documentElement;
+    bar.style.width = Math.min(scrollY / (h.scrollHeight - h.clientHeight) * 100, 100) + '%';
+  }
+  window.addEventListener('scroll', update, {passive:true});
+}());
+
+
+/* ── BACK TO TOP ─────────────────────────────────────── */
+(function(){
+  const btn = document.getElementById('back-top');
+  if (!btn) return;
+  window.addEventListener('scroll', ()=>{
+    btn.classList.toggle('visible', scrollY > 420);
+  }, {passive:true});
+  btn.addEventListener('click', ()=> window.scrollTo({top:0, behavior: prefersRM ? 'instant' : 'smooth'}));
+}());
+
+
+/* ── COPY EMAIL ──────────────────────────────────────── */
+(function(){
+  const btn = document.getElementById('copy-email');
+  if (!btn) return;
+  btn.addEventListener('click', async e=>{
+    e.preventDefault();
+    try {
+      await navigator.clipboard.writeText('faisalsistec@gmail.com');
+    } catch {
+      // Fallback for older browsers
+      const ta = Object.assign(document.createElement('textarea'), {
+        value:'faisalsistec@gmail.com', style:'position:fixed;opacity:0'
+      });
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy');
+      document.body.removeChild(ta);
+    }
+    btn.textContent = '✓ Copied!';
+    btn.classList.add('copied');
+    setTimeout(()=>{ btn.textContent = 'Copy'; btn.classList.remove('copied'); }, 2200);
+  });
+}());
+
+
+/* ── CONTACT FORM (Formspree + mailto fallback) ──────── */
+(function(){
+  const form   = document.getElementById('contactForm');
+  const status = document.getElementById('form-status');
+  if (!form || !status) return;
+
+  form.addEventListener('submit', async e=>{
+    e.preventDefault();
+    const submitBtn = form.querySelector('.form-btn');
+    const origHTML  = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="animation:spin 1s linear infinite"><path d="M21 12a9 9 0 11-6.219-8.56"/></svg>&nbsp;Sending\u2026';
+    status.className = 'form-status';
+    status.textContent = '';
+
+    if (!form.action.includes('YOUR_FORM_ID')) {
+      // Formspree configured — use fetch
+      try {
+        const res = await fetch(form.action, {
+          method:'POST', body: new FormData(form), headers:{'Accept':'application/json'}
+        });
+        if (res.ok) {
+          status.textContent = '✓ Message sent! I\'ll get back to you within 24 hours.';
+          status.className = 'form-status success';
+          form.reset();
+        } else { throw new Error(); }
+      } catch {
+        status.textContent = '✗ Delivery failed. Please email faisalsistec@gmail.com directly.';
+        status.className = 'form-status error';
+      }
+    } else {
+      // mailto fallback
+      const name    = form.querySelector('[name="name"]').value;
+      const email   = form.querySelector('[name="email"]').value;
+      const subject = encodeURIComponent(form.querySelector('[name="subject"]').value || 'Portfolio enquiry');
+      const body    = encodeURIComponent(`From: ${name} <${email}>\n\n${form.querySelector('[name="message"]').value}`);
+      window.location.href = `mailto:faisalsistec@gmail.com?subject=${subject}&body=${body}`;
+      status.textContent = '✓ Your email client has been opened with the message pre-filled.';
+      status.className = 'form-status success';
+    }
+
+    submitBtn.disabled = false;
+    submitBtn.innerHTML = origHTML;
+  });
+}());
+
+</script>
+</body>
+</html>
