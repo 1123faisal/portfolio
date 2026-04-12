@@ -1,0 +1,3 @@
+[**Local Deal**](https://localdealsfundraising.com/)
+
+Local Deal is an engaging sports information and community-driven application developed on the MEAN stack (MongoDB, Express.js, Angular, Node.js). As a key member of the project team, I contributed to the creation of a dynamic platform that connects users with relevant and up-to-date sports information. Local Deal enables users to discover local sports events, engage with fellow sports enthusiasts, and support the platform through donation initiatives. By leveraging my expertise in web development and a passion for sports, I played a vital role in building Local Deal, a user-friendly application that enhances the sports experience for enthusiasts and fosters a vibrant sports community.
