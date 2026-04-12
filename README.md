@@ -7,7 +7,7 @@
 *I build scalable Angular frontends that teams love and users depend on —*  
 *from monorepo architecture decisions to pixel-perfect delivery.*
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-1123faisal.github.io-00d4ff?style=for-the-badge&labelColor=0d0f14)](https://1123faisal.github.io)
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-1123faisal.github.io/portfolio/-00d4ff?style=for-the-badge&labelColor=0d0f14)](https://1123faisal.github.io/portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-1123faisal-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/in/1123faisal)
 [![Email](https://img.shields.io/badge/Email-faisalsistec@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:faisalsistec@gmail.com)
 
@@ -143,8 +143,8 @@
 
 📬 **Open to senior Angular roles, contract engagements & technical conversations**
 
-[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-1123faisal.github.io-00d4ff?style=for-the-badge&labelColor=0d0f14)](https://1123faisal.github.io) &nbsp;
-[![Resume](https://img.shields.io/badge/Download_Resume-PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://1123faisal.github.io/faisal_khan_resume.pdf)
+[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-1123faisal.github.io/portfolio/-00d4ff?style=for-the-badge&labelColor=0d0f14)](https://1123faisal.github.io/portfolio/) &nbsp;
+[![Resume](https://img.shields.io/badge/Download_Resume-PDF-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://1123faisal.github.io/portfolio/faisal_khan_resume.pdf)
 
 *Built with ❤️ from Bhopal, India · 2026*
 
