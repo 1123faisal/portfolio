@@ -1,0 +1,12 @@
+<div class="card mb-4">
+  <div class="card-header">
+    <h5><b>EXPERIENCE</b></h5>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-12 mb-3" *ngFor="let ex of expriences">
+        <app-experience [info]="ex"></app-experience>
+      </div>
+    </div>
+  </div>
+</div>

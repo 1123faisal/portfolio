@@ -1,0 +1,22 @@
+<div class="card mb-4">
+  <div class="card-header">
+    <h5><b>SKILLS</b></h5>
+  </div>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-6" *ngFor="let sk of skills">
+        <h3 class="progress-title">{{ sk.skill | uppercase }}</h3>
+        <div class="progress" [ngClass]="sk.c1">
+          <div
+            class=""
+            [ngClass]="'progress-bar ' + sk.c2 + ' progress-bar-striped'"
+            [ngStyle]="{ width: sk.precentage + '%' }"
+          >
+            <div class="progress-value">{{ sk.precentage }}%</div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
