@@ -20,6 +20,7 @@
   <meta name="twitter:image" content="https://1123faisal.github.io/portfolio/profile.jpg" />
   <!-- Canonical -->
   <link rel="canonical" href="https://1123faisal.github.io/portfolio/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%2300d4ff'/><stop offset='100%25' stop-color='%230099cc'/></linearGradient></defs><rect width='100' height='100' rx='18' fill='url(%23g)'/><text x='50' y='67' font-family='system-ui,sans-serif' font-size='46' font-weight='800' fill='%230d0f14' text-anchor='middle'>FK</text></svg>" />
   <title>Faisal Khan – Senior Angular &amp; Frontend Engineer | Bhopal, India</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -894,29 +895,61 @@
     <header class="sec-hd reveal">
       <span class="sec-label">🏗️ 03 — Featured Projects</span>
       <h2 id="projects-h" class="sec-title">Things I've <span class="hl">Built</span></h2>
-      <p class="sec-sub">Selected work showcasing Angular architecture, performance engineering, and team-scale UI delivery.</p>
+      <p class="sec-sub">Real-world platforms spanning enterprise healthcare operations, luxury mobility, EdTech, travel, and community fundraising — built on the MEAN stack and Angular.</p>
     </header>
 
     <div class="proj-grid">
 
-      <!-- Card 1: CaiDrive -->
+      <!-- Card 1: ForSite -->
       <article class="proj-card reveal d1">
         <div class="proj-card-top">
+          <div class="proj-ico">🏥</div>
+          <span class="proj-ctx">Taazaa Inc · Enterprise SPA · Healthcare USA</span>
+        </div>
+        <h3 class="proj-name">ForSite — ForTec Medical</h3>
+        <p class="proj-desc">Large-scale enterprise SPA for ForTec Medical — a 35-year-old US surgical technology provider operating 1,350+ devices nationwide. Serves as both internal operations platform (scheduling, billing, HR, inventory, work orders) and a customer-facing partner portal for hospitals &amp; surgery centres to self-serve 24/7 case scheduling.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular 21</span>
+          <span class="tag">NgRx 20</span>
+          <span class="tag">Signals</span>
+          <span class="tag">SignalR</span>
+          <span class="tag">NX</span>
+          <span class="tag">.NET API</span>
+        </div>
+        <div class="proj-impact">
+          <span>⚡</span>
+          <span class="impact-txt">40+ NgRx slices · 12 surgical specialties · v2.2.29</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://forsite.fortecmedical.com/PortalApp/#/login" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Live Portal
+          </a>
+          <a href="https://fortecmedical.com/" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Client Site
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 2: CaiDrive -->
+      <article class="proj-card reveal d2">
+        <div class="proj-card-top">
           <div class="proj-ico">🚗</div>
-          <span class="proj-ctx">Car Rental · UAE</span>
+          <span class="proj-ctx">WebMobril · Luxury Car Rental · UAE</span>
         </div>
         <h3 class="proj-name">CaiDrive</h3>
-        <p class="proj-desc">Full-stack car rental platform for the UAE built on the MEAN stack. Features user auth, car catalogue with search &amp; filters, booking/reservation management, secure payment integration, ratings, and an admin dashboard.</p>
+        <p class="proj-desc">Premium luxury &amp; hypercar rental platform for Dubai and the UAE — "Keeper of the Keys". Features 500+ vehicles across 50+ brands (Ferrari, Lamborghini, Rolls-Royce, Bugatti), ⌘K global search, OAuth SSO (Google &amp; Apple), VIP doorstep delivery, partner lifestyle discounts at luxury hotels &amp; restaurants, and a chauffeur rides module.</p>
         <div class="proj-stack">
           <span class="tag">Angular</span>
           <span class="tag">Node.js</span>
           <span class="tag">Express.js</span>
           <span class="tag">MongoDB</span>
-          <span class="tag">TypeScript</span>
+          <span class="tag">OAuth 2.0</span>
         </div>
         <div class="proj-impact">
           <span>🏎️</span>
-          <span class="impact-txt">End-to-end rental flow · secure payment gateway</span>
+          <span class="impact-txt">500+ luxury vehicles · 50+ brands · 4.9★ avg rating</span>
         </div>
         <div class="proj-links">
           <a href="https://caidrive.com/" target="_blank" rel="noopener" class="proj-lnk">
@@ -926,14 +959,14 @@
         </div>
       </article>
 
-      <!-- Card 2: Health Safe Today -->
-      <article class="proj-card reveal d2">
+      <!-- Card 3: Health Safe Today -->
+      <article class="proj-card reveal d3">
         <div class="proj-card-top">
-          <div class="proj-ico">🏥</div>
-          <span class="proj-ctx">Digital Health · India</span>
+          <div class="proj-ico">💊</div>
+          <span class="proj-ctx">Benchwork Technologies · Digital Health · India</span>
         </div>
         <h3 class="proj-name">Health Safe Today</h3>
-        <p class="proj-desc">Mobile-first digital health wallet enabling patients to store and access health records on their phones. Built RESTful APIs and managed databases to create an interoperable ecosystem connecting providers, labs, and pharmacies.</p>
+        <p class="proj-desc">Mobile-first digital health wallet for India enabling patients to access all their health records on their phones — like a bank account for health data. Built RESTful APIs and the database layer to create an interoperable ecosystem connecting healthcare providers, laboratories, and pharmacies on a single platform.</p>
         <div class="proj-stack">
           <span class="tag">Node.js</span>
           <span class="tag">Express.js</span>
@@ -943,7 +976,7 @@
         </div>
         <div class="proj-impact">
           <span>📋</span>
-          <span class="impact-txt">Interoperable health ecosystem · mobile-first UX</span>
+          <span class="impact-txt">Interoperable health ecosystem · providers, labs &amp; pharmacies</span>
         </div>
         <div class="proj-links">
           <a href="https://www.healthsafetoday.com/" target="_blank" rel="noopener" class="proj-lnk">
@@ -953,41 +986,14 @@
         </div>
       </article>
 
-      <!-- Card 3: Kamrad Finder -->
-      <article class="proj-card reveal d3">
-        <div class="proj-card-top">
-          <div class="proj-ico">🗺️</div>
-          <span class="proj-ctx">Travel · Global</span>
-        </div>
-        <h3 class="proj-name">Kamrad Finder</h3>
-        <p class="proj-desc">Subscription-based travel app on the MEAN stack recommending top tourist destinations worldwide. Includes personalized event/discount notifications, interactive maps, trip planner, and community reviews &amp; ratings.</p>
-        <div class="proj-stack">
-          <span class="tag">Angular</span>
-          <span class="tag">Node.js</span>
-          <span class="tag">Express.js</span>
-          <span class="tag">MongoDB</span>
-          <span class="tag">Maps API</span>
-        </div>
-        <div class="proj-impact">
-          <span>🌍</span>
-          <span class="impact-txt">Curated global destinations · subscription notifications</span>
-        </div>
-        <div class="proj-links">
-          <a href="http://www.kamradfinder.com/" target="_blank" rel="noopener" class="proj-lnk">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
-            Live Site
-          </a>
-        </div>
-      </article>
-
-      <!-- Card 4: Local Deal -->
+      <!-- Card 4: Kamrad Finder -->
       <article class="proj-card reveal d4">
         <div class="proj-card-top">
-          <div class="proj-ico">⚽</div>
-          <span class="proj-ctx">Sports &amp; Community</span>
+          <div class="proj-ico">🤝</div>
+          <span class="proj-ctx">WebMobril · Travel Companion Matching · Global</span>
         </div>
-        <h3 class="proj-name">Local Deal</h3>
-        <p class="proj-desc">Community-driven sports information platform on the MEAN stack. Connects users with local sports events, enables community engagement among sports enthusiasts, and supports donation-based fundraising for the platform.</p>
+        <h3 class="proj-name">Kamrad Finder</h3>
+        <p class="proj-desc">Travel companion matching platform that pairs committed travelers heading to the same destination — solving the problem of friends backing out of trips. Subscription model (Standard $30 / Premium $125), 3-step matching flow, curated global destination catalogue (Alaska, Germany, Australia &amp; more), and account notifications on match.</p>
         <div class="proj-stack">
           <span class="tag">Angular</span>
           <span class="tag">Node.js</span>
@@ -996,8 +1002,35 @@
           <span class="tag">TypeScript</span>
         </div>
         <div class="proj-impact">
-          <span>🏅</span>
-          <span class="impact-txt">Live sports events · community & fundraising</span>
+          <span>🌍</span>
+          <span class="impact-txt">Standard $30 · Premium $125 · global destination matching</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://www.kamradfinder.com/" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Live Site
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 5: Local Deals Fundraising -->
+      <article class="proj-card reveal d1">
+        <div class="proj-card-top">
+          <div class="proj-ico">🎟️</div>
+          <span class="proj-ctx">WebMobril · Digital Fundraising · Local Commerce</span>
+        </div>
+        <h3 class="proj-name">Local Deals Fundraising</h3>
+        <p class="proj-desc">Digital coupon fundraising platform replacing door-to-door sales for schools, sports teams, and clubs. Organisations launch campaigns via a 20-minute meeting; members share personal pages via social media; supporters buy access to 90+ local merchant deals via the app or donate directly. 100% trackable, zero collecting.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Google Maps</span>
+        </div>
+        <div class="proj-impact">
+          <span>💰</span>
+          <span class="impact-txt">90+ local merchant deals · 100% trackable campaigns</span>
         </div>
         <div class="proj-links">
           <a href="https://localdealsfundraising.com/" target="_blank" rel="noopener" class="proj-lnk">
@@ -1007,29 +1040,61 @@
         </div>
       </article>
 
-      <!-- Card 5: Nikshala -->
-      <article class="proj-card reveal d1">
+      <!-- Card 6: MARBLELIFE -->
+      <article class="proj-card reveal d3">
+        <div class="proj-card-top">
+          <div class="proj-ico">🪨</div>
+          <span class="proj-ctx">Taazaa Inc · Franchise Operations SPA · USA</span>
+        </div>
+        <h3 class="proj-name">MARBLELIFE® Franchise Portal</h3>
+        <p class="proj-desc">Internal operations SPA for the MARBLELIFE® nationwide franchise network (est. 1988) — sole frontend engineer. Centralises the entire photo workflow for technicians and admins: ZIP bulk uploads, before/after image curation for the public marketing site, CRM data, payroll, and role-gated analytics. 7 roles, 6 panel types, 18 shared components, and a published Nx drag-and-drop library.</p>
+        <div class="proj-stack">
+          <span class="tag">Angular 18</span>
+          <span class="tag">Nx 19</span>
+          <span class="tag">Signals</span>
+          <span class="tag">Storybook</span>
+          <span class="tag">Cypress</span>
+          <span class="tag">Docker</span>
+        </div>
+        <div class="proj-impact">
+          <span>🏛️</span>
+          <span class="impact-txt">Sole FE engineer · 7 roles · 18 shared components · published Nx lib</span>
+        </div>
+        <div class="proj-links">
+          <a href="https://marblelifeproducts.com" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Brand Site
+          </a>
+        </div>
+      </article>
+
+      <!-- Card 7: Nikshala -->
+      <article class="proj-card reveal d2">
         <div class="proj-card-top">
           <div class="proj-ico">🎓</div>
-          <span class="proj-ctx">EdTech · Study Abroad</span>
+          <span class="proj-ctx">Benchwork Technologies · EdTech · Study Abroad</span>
         </div>
         <h3 class="proj-name">Nikshala</h3>
-        <p class="proj-desc">Online education &amp; guidance platform for Indian students studying abroad (Germany, Australia &amp; more). Offers online consultation with advisors, detailed course guidance, dream-destination insights, and a resource hub.</p>
+        <p class="proj-desc">One-stop study-abroad guidance platform for Indian students targeting Germany, Australia &amp; beyond. Provides a step-by-step admission &amp; visa roadmap, personalised university shortlisting, SOP guides, expert courses (German language, TestAS), progress tracking, and Guruji — an AI-powered chatbot for 24/7 instant guidance.</p>
         <div class="proj-stack">
           <span class="tag">Angular</span>
           <span class="tag">Node.js</span>
           <span class="tag">Express.js</span>
           <span class="tag">MongoDB</span>
-          <span class="tag">TypeScript</span>
+          <span class="tag">AI Chatbot</span>
         </div>
         <div class="proj-impact">
           <span>📚</span>
-          <span class="impact-txt">Study abroad guidance · personalised consultations</span>
+          <span class="impact-txt">Germany &amp; Australia roadmap · Guruji AI chatbot · Android app</span>
         </div>
         <div class="proj-links">
-          <a href="https://play.google.com/store/search?q=nikshala&c=apps" target="_blank" rel="noopener" class="proj-lnk">
+          <a href="https://play.google.com/store/apps/details?id=branded.m50f2798b62f74124bf6ebe4f53bd3cb6.nikshala20" target="_blank" rel="noopener" class="proj-lnk">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
             Play Store
+          </a>
+          <a href="https://nikshala.com/" target="_blank" rel="noopener" class="proj-lnk">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+            Website
           </a>
         </div>
       </article>

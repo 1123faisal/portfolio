@@ -1,31 +1,112 @@
-[**Nikshala**](https://play.google.com/store/search?q=nikshala&c=apps)
+# Nikshala — Study Abroad Guidance Platform for Indian Students
 
-**Project Description:**
+> **Type:** Full-Stack Web Application + Mobile App &nbsp;|&nbsp; **Industry:** EdTech / Study Abroad Consultancy  
+> **Play Store:** [Nikshala Germany](https://play.google.com/store/apps/details?id=branded.m50f2798b62f74124bf6ebe4f53bd3cb6.nikshala20) &nbsp;|&nbsp; **Website:** [nikshala.com](https://nikshala.com/) &nbsp;|&nbsp; **Category:** Education  
+> **Developer:** Nikhilesh Dhure &nbsp;|&nbsp; **Last Updated:** March 26, 2025
 
-Nikshala is an online education and guidance application built on the MEAN stack (MongoDB, Express.js, Angular, Node.js). The primary purpose of Nikshala is to provide online consultation and guidance to Indian students studying abroad in countries like Germany, Australia, and more. The application offers valuable guidance related to courses, helping students make informed decisions about their academic journey and providing access to resources that support their goals in their dream study destinations.
+---
 
-**Key features of the Nikshala application include:**
+## About Nikshala
 
-1\. Online Consultation: Nikshala facilitates online consultations between Indian students studying abroad and experienced education consultants. These consultations provide personalized guidance, addressing queries related to courses, universities, study options, and career pathways.
+Nikshala is a **one-stop study-abroad guidance platform** built specifically for Indian students aspiring to pursue higher education in Germany, Australia, and other countries. The platform simplifies the notoriously complex journey of studying abroad — from shortlisting universities and preparing documents to visa applications and language preparation — through a structured, step-by-step digital experience.
 
-2\. Course Guidance: The application offers detailed information about various courses available in popular study destinations. Students can explore courses, understand their curriculum, and receive guidance on the best-suited options for their academic and career aspirations.
+> *"Nikshala is your one-stop solution for all your study-abroad needs. Whether you're planning to pursue a Bachelor's, Master's, or need help with applications, this app simplifies your journey."* — Play Store description
 
-3\. Dream Study Destination Exploration: Nikshala provides comprehensive insights into dream study destinations such as Germany, Australia, and others. Students can access information about universities, admission requirements, scholarships, living expenses, and cultural aspects, enabling them to make well-informed decisions.
+The platform has evolved to include **Guruji by Nikshala** — an AI-powered chatbot assistant embedded on the website that provides instant, personalised guidance at any time.
 
-4\. Resource Hub: The application includes a resource hub with a collection of educational materials, articles, and guides. Students can access these resources to enhance their knowledge about study abroad opportunities, application procedures, visa requirements, and more.
+---
 
-**Outcome of the Project:**
+## Core Problem Solved
 
-The Nikshala project successfully developed an online education and guidance application on the MEAN stack, catering specifically to Indian students studying abroad. The outcome of the project includes:
+Studying abroad as an Indian student involves navigating a complex maze of:
+- University shortlisting across foreign education systems
+- SOP (Statement of Purpose) writing and personalisation
+- Admission application processes with differing deadlines and requirements
+- Visa application procedures and documentation
+- Language proficiency tests (German, TestAS, IELTS, etc.)
+- Scholarship identification and financial planning
 
-1\. Personalized Guidance: Nikshala provides Indian students with personalized online consultations, helping them navigate the complexities of studying abroad and make informed decisions about their courses and study destinations.
+Nikshala consolidates all of this into one guided, trackable digital platform — replacing scattered consultants, forums, and agencies.
 
-2\. Informed Course Selection: The application empowers students to explore and select courses that align with their academic and career goals. The guidance provided assists students in choosing the right course based on their interests, skills, and market demand.
+---
 
-3\. Comprehensive Study Destination Information: Nikshala offers students comprehensive insights into their dream study destinations, providing information about universities, admission processes, scholarships, and living expenses. This enables students to plan and prepare effectively for their academic journey.
+## Key Features
 
-4\. Access to Educational Resources: The application's resource hub equips students with a wealth of educational materials and guides, enhancing their knowledge about study abroad opportunities, application procedures, visa requirements, and other essential aspects.
+### 🗺️ Step-by-Step Admission & Visa Roadmap
+- Structured, milestone-based roadmap covering the full study-abroad journey — from initial research through to visa approval
+- Task checklists tailored to target country (Germany, Australia, etc.) and degree level (Bachelor's / Master's)
+- Progress tracking so students never miss a critical step or deadline
 
-5\. Increased Study Abroad Success: The Nikshala project aims to increase the success rate of Indian students studying abroad by providing them with the necessary guidance and resources to make well-informed decisions, resulting in a fulfilling and successful academic experience.
+### 🎓 Personalised University Shortlisting
+- Guided shortlisting based on academic profile, budget, career goals, and preferred destination
+- Curated university and course information for popular study destinations
+- Interview preparation support for university admissions
 
-The Nikshala project showcases my expertise in developing an online education and guidance application on the MEAN stack, specifically tailored to Indian students studying abroad.  
+### 📝 SOP & Document Guidance
+- Personalised guides and templates for writing Statements of Purpose (SOPs)
+- Documentation checklists for university applications, visa applications, and enrolment
+
+### 📚 Expert-Curated Courses
+| Course | Purpose |
+|--------|---------|
+| **German Language Preparation** | Foundation-to-advanced German for students heading to Germany |
+| **TestAS Preparation** | Aptitude test coaching for German university admission eligibility |
+| **Study Destination Guides** | Country-specific modules covering admission norms, scholarships, living costs, and culture |
+
+### 🤖 Guruji — AI Chatbot Assistant
+- AI-powered chatbot embedded on [nikshala.com](https://nikshala.com/) providing instant responses to study-abroad queries
+- Built on Zapier's chatbot infrastructure with custom Nikshala branding
+- Available 24/7 to guide students through their journey without waiting for a human consultant
+
+### 🆓 Free Resources & Tools
+- Free access to guides, articles, and tools for study-abroad preparation
+- Visa requirement breakdowns by country
+- Scholarship discovery resources
+- Application procedure walkthroughs
+
+### 📊 Progress Tracking
+- Individual student progress dashboard tracking completion of roadmap milestones
+- Reminder system to keep students on track with deadlines
+
+### 🔒 Data Privacy & Security
+- Data encrypted in transit
+- Supports user data deletion requests
+- Complies with app store data safety standards
+
+---
+
+## Platform Presence
+
+| Channel | Details |
+|---------|---------|
+| **Website** | [nikshala.com](https://nikshala.com/) — AI chatbot (Guruji) powered |
+| **Android App** | [Nikshala Germany on Play Store](https://play.google.com/store/apps/details?id=branded.m50f2798b62f74124bf6ebe4f53bd3cb6.nikshala20) |
+| **Target Audience** | Indian students pursuing Bachelor's / Master's abroad |
+| **Primary Market** | Germany (flagship), Australia, and other study destinations |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | Angular (MEAN stack) |
+| **Backend** | Node.js + Express.js |
+| **Database** | MongoDB |
+| **Mobile** | Android (Play Store) |
+| **AI Chatbot** | Guruji by Nikshala (Zapier-powered chatbot integration) |
+| **Language** | TypeScript |
+
+---
+
+## My Role & Contributions
+
+- Built the **step-by-step admission and visa roadmap module** — milestone-based guided flow covering the entire study-abroad journey from research to post-arrival, tailored per destination country and degree level.
+- Developed the **university shortlisting engine** — profile-based filtering and curated recommendation of universities and courses matching the student's academic background, budget, and career goals.
+- Implemented the **SOP and document guidance module** — template-driven SOP builder, document checklist generator, and preparation guides personalised to the target university's requirements.
+- Built the **expert-curated courses section** — German language preparation, TestAS coaching, and destination-specific study guides authored by education consultants and surfaced within the app.
+- Developed the **student progress tracking dashboard** — milestone completion tracking, deadline reminders, and a visual roadmap showing progress through the study-abroad process.
+- Engineered the **free resources hub** — searchable collection of visa guides, scholarship information, living cost breakdowns, and application procedure articles.
+- Implemented **user authentication and profile management** — student accounts with academic profile data, target destination preferences, and consultation history.
+- Contributed to integrating the **Guruji AI chatbot** on the platform to provide instant, 24/7 study-abroad guidance to students without consultant availability constraints.
+
