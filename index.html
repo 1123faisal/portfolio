@@ -420,38 +420,6 @@
     .tl-bullets li::before { content:'▸'; color:var(--accent); flex-shrink:0; margin-top:1px; }
 
     /* ═══════════════════════════════════════════════════
-       TESTIMONIALS
-    ═══════════════════════════════════════════════════ */
-    #testimonials { background:var(--bg-2); position:relative; }
-    #testimonials::before, #testimonials::after {
-      content:''; position:absolute; left:0; right:0; height:1px;
-      background:linear-gradient(90deg,transparent,var(--border-a),transparent);
-    }
-    #testimonials::before { top:0; }
-    #testimonials::after  { bottom:0; }
-    .testi-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:22px; }
-    .testi-card {
-      background:var(--bg-card); border:1px solid var(--border);
-      border-radius:var(--radius-lg); padding:26px;
-      transition:var(--t); display:flex; flex-direction:column; gap:18px;
-    }
-    .testi-card:hover { border-color:rgba(0,212,255,.18); transform:translateY(-3px); }
-    .quote-mark { font-size:44px; font-family:Georgia,serif; color:var(--accent); opacity:.35; line-height:.8; }
-    .testi-txt { font-size:13.5px; color:var(--text-2); line-height:1.75; font-style:italic; flex:1; }
-    .testi-auth {
-      display:flex; align-items:center; gap:11px;
-      padding-top:14px; border-top:1px solid var(--border);
-    }
-    .t-avatar {
-      width:38px; height:38px; border-radius:50%; flex-shrink:0;
-      background:var(--bg-2); border:1px solid var(--border-a);
-      display:flex; align-items:center; justify-content:center;
-      font-family:var(--ff-display); font-size:13px; font-weight:700; color:var(--accent);
-    }
-    .t-name { font-family:var(--ff-display); font-size:13.5px; font-weight:700; color:var(--text); }
-    .t-role { font-size:11.5px; color:var(--text-3); margin-top:2px; }
-
-    /* ═══════════════════════════════════════════════════
        CONTACT
     ═══════════════════════════════════════════════════ */
     #contact { position:relative; }
@@ -1196,63 +1164,12 @@
 </section>
 
 <!-- ══════════════════════════════════════════════════════
-     TESTIMONIALS
-══════════════════════════════════════════════════════ -->
-<section id="testimonials" class="section" aria-labelledby="testi-h">
-  <div class="container">
-    <header class="sec-hd reveal">
-      <span class="sec-label">💬 05 — Recommendations</span>
-      <h2 id="testi-h" class="sec-title">What People <span class="hl">Say</span></h2>
-    </header>
-    <div class="testi-grid">
-
-      <div class="testi-card reveal d1">
-        <div class="quote-mark">"</div>
-        <p class="testi-txt">Faisal has an exceptional ability to turn complex requirements into clean, scalable Angular architectures. His NX monorepo setup saved our team weeks of work and is now the frontend standard across all our product lines.</p>
-        <div class="testi-auth">
-          <div class="t-avatar">SM</div>
-          <div>
-            <div class="t-name">Sarah M.</div>
-            <div class="t-role">Engineering Manager · Taazaa Inc</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d2">
-        <div class="quote-mark">"</div>
-        <p class="testi-txt">Working with Faisal elevated the entire team's Angular practices. His code reviews are thorough yet encouraging — two of the junior devs he mentored received promotions within a year. Rarely seen that kind of impact from one engineer.</p>
-        <div class="testi-auth">
-          <div class="t-avatar">RK</div>
-          <div>
-            <div class="t-name">Rahul K.</div>
-            <div class="t-role">Senior Product Manager · WebMobril</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testi-card reveal d3">
-        <div class="quote-mark">"</div>
-        <p class="testi-txt">Faisal's Storybook design system was a game-changer. Before it, every team had inconsistent components; after, we shipped features twice as fast with pixel-perfect UI. His attention to developer experience is genuinely rare.</p>
-        <div class="testi-auth">
-          <div class="t-avatar">AP</div>
-          <div>
-            <div class="t-name">Anjali P.</div>
-            <div class="t-role">Frontend Lead · Benchwork Technologies</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════════════════════════════════════════════
      CONTACT
 ══════════════════════════════════════════════════════ -->
 <section id="contact" class="section" aria-labelledby="contact-h">
   <div class="container">
     <header class="sec-hd reveal">
-      <span class="sec-label">📬 06 — Get In Touch</span>
+      <span class="sec-label">📬 05 — Get In Touch</span>
       <h2 id="contact-h" class="sec-title">Let's <span class="hl">Work Together</span></h2>
     </header>
     <div class="contact-grid">
